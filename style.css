@@ -4,13 +4,19 @@
 }
 body {
   background-color: hsl(225, 100%, 94%);
-  font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Outfit", sans-serif;
   min-height: 100vh;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 20px;
 }
 .container {
   max-width: 300px;
@@ -20,10 +26,18 @@ body {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  border-radius: 12px;
 }
 
 .container button {
   background-color: hsl(245, 75%, 52%);
+  max-width: 300px;
+  width: 250px;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 12px;
 }
 .attribution {
   font-size: 11px;
