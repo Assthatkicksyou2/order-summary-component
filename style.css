@@ -1,12 +1,28 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: hsl(225, 100%, 94%);
 }
-.box {
+body {
   background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
 }
-button {
+.container {
+  max-width: 300px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container button {
   background-color: hsl(245, 75%, 52%);
 }
 .attribution {
@@ -16,20 +32,3 @@ button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
- <!-- 
- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
- -->
