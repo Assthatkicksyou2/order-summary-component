@@ -12,7 +12,6 @@ body {
   align-items: center;
   font-family: "Outfit", sans-serif;
   min-height: 100vh;
-  color: hsl(224, 23%, 55%);
   font-size: 16px;
 }
 h1 {
@@ -25,7 +24,9 @@ h1 {
 }
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -37,7 +38,6 @@ h1 {
   border-radius: 12px;
 }
 .img-card {
-  display: flex;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
   height: 50%;
@@ -46,13 +46,22 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container button {
+.info-box {
+  padding: 20px;
+}
+.order-box {
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.button-box button {
   background-color: hsl(245, 75%, 52%);
   max-width: 300px;
   width: 250px;
   border-radius: 8px;
   color: white;
-  padding: 10px;
+  padding: 20px;
   font-weight: 700;
   font-size: 12px;
 }
