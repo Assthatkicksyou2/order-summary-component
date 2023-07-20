@@ -58,8 +58,12 @@ p {
 .info-box {
   padding: 30px;
 }
-.box {
-  background-color: blue;
+
+.price-box {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .order-box {
   padding: 18px;
